@@ -1,0 +1,28 @@
+package controle;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class If {
+
+    public static void main(String[] args) {
+
+        Scanner entrada = new Scanner(System.in);
+        entrada.useLocale(Locale.US);
+
+        System.out.println("Digite sua media: ");
+        double media = entrada.nextDouble();
+
+        if (media <=10 && media >= 7){
+            System.out.println("Aprovado!");
+        }
+
+        if (media > 5 && media < 6.9){
+            System.out.println("Recuperação!");
+        }
+
+        if (media < 5 && media >=0){
+            System.out.println("Reprovado!");
+        }
+    }
+}
