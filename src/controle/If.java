@@ -23,6 +23,8 @@ public class If {
 
         if (media < 5 && media >=0){
             System.out.println("Reprovado!");
+
+            entrada.close();
         }
     }
 }
