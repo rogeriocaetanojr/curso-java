@@ -17,7 +17,7 @@ public class If {
             System.out.println("Aprovado!");
         }
 
-        if (media > 5 && media < 6.9){
+        if (media >= 5 && media < 7){
             System.out.println("Recuperação!");
         }
 
