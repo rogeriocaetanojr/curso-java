@@ -5,6 +5,15 @@ public class Data {
     String mes;
     int ano;
 
+    Data(){
+
+    }
+    Data(int diaNasc, String mesNasc, int anoNasc) {
+        dia = diaNasc;
+        mes = mesNasc;
+        ano = anoNasc;
+    }
+
     String obterDataFormatada() {
         return String.format("%d/%s/%d", dia, mes, ano);
     }
