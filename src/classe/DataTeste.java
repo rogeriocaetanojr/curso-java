@@ -19,8 +19,11 @@ public class DataTeste {
         data3.mes = "Setembro";
         data3.ano = 1999;
 
-        System.out.printf("A data de nascimento da Kimberly é: %d de %s de %d\n", data1.dia, data1.mes, data1.ano);
-        System.out.printf("A data de nascimento do Rogério é: %d de %s de %d\n", data3.dia, data3.mes, data3.ano);
-        System.out.printf("A data em que comecei a namorar com a Kimberly é: %d de %s de %d", data2.dia, data2.mes, data2.ano);
+        //System.out.printf("A data de nascimento da Kimberly é: %d de %s de %d\n", data1.dia, data1.mes, data1.ano);
+        System.out.println("A data de nascismento da Kimberly é: " + data1.obterDataFormatada());
+        //System.out.printf("A data de nascimento do Rogério é: %d de %s de %d\n", data3.dia, data3.mes, data3.ano);
+        System.out.println("A data de nascimento do Rogério é: " + data3.obterDataFormatada());
+        //System.out.printf("A data em que comecei a namorar com a Kimberly é: %d de %s de %d", data2.dia, data2.mes, data2.ano);
+        System.out.println("A data em que comecei a namorar com a Kimberly é: " + data2.obterDataFormatada());
     }
 }
