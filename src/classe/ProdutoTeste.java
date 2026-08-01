@@ -4,7 +4,7 @@ public class ProdutoTeste {
 
     public static void main(String[] args) {
 
-        Produto p1 = new Produto("Notebook", 3499.00, 0.15);
+        Produto p1 = new Produto("Notebook", 3499.00);
         // p1.nome = "Notebook";
         // p1.preco = 3499.00;
         // p1.desconto = 0.15;
@@ -12,7 +12,8 @@ public class ProdutoTeste {
         Produto p2 = new Produto();
         p2.nome = "Placa de vídeo";
         p2.preco = 2749.99;
-        p2.desconto = 0.10;
+        // p2.desconto = 0.10;
+        Produto.desconto = 0.29;
 
        // double valorDescontoP1 = p1.preco * p1.desconto;
         double valorFinalP1 = p1.precoComDesconto();
